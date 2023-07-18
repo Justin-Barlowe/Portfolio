@@ -168,16 +168,20 @@ a:hover {
   place-content: center;
 }
 
-.about1 {
+.about1  {
   float: right;
 }
 
 .about-section-2 {
-  width: 75%;
+  width: 400px;
 }
 
 .about-section-3 {
-  width: 75%;
+float: left;
+width: 400px;
+}
+
+.about-section-4 {
   text-align: right;
 }
 
@@ -194,6 +198,7 @@ a:hover {
   cursor: pointer;
   border: none;
   padding: 0 56px;
+  width: 24%;
   height: 45px;
   line-height: 45px;
   border-radius: 7px;
@@ -203,6 +208,8 @@ a:hover {
   font-size: 16px;
   transition: 0.2s ease, color 0.2s ease, 0.2s ease;
   width: 1fr;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .source-button:hover {
@@ -233,4 +240,54 @@ a:hover {
 
 .resume {
   font-size: 18px;
+}
+
+.resume-pdf {
+  padding-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+}
+
+#resumescreen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 12px 12px 8px 12px rgba(rgb(0, 0, 0), green, blue, alpha);
+  border-radius: 10px;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007BFF;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.cursor {
+  border-right: 4px solid black; 
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+
+.card-container {
+  max-width: 75%;
+  margin: 0 auto;
 }
