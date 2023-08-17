@@ -292,3 +292,15 @@ p {
   max-width: 75%;
   margin: 0 auto;
 }
+
+#nodeshopper img {  
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+#nodetech img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
