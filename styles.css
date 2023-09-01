@@ -313,6 +313,7 @@ p {
 }
 
 .apiimage img:hover {
+  -moz-transform: scale(2.5));
   --webkit-transform: scale(2.5);
   transform: scale(2.5);
 }
