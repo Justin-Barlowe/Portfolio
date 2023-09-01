@@ -303,3 +303,16 @@ p {
   height: auto;
   border-radius: 20px;
 }
+
+.apiimage img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  max-width: 300px;
+  transition:transform 0.25s ease;
+}
+
+.apiimage img:hover {
+  --webkit-transform: scale(2.5);
+  transform: scale(2.5);
+}
