@@ -1,4 +1,4 @@
-var words = ['Fullstack Developer ', 'nerd ', 'Gamer ', 'Dad '];
+var words = ['Fullstack Developer ', 'Nerd ', 'Gamer ', 'Metal Head', 'Cybersecurity Enthusiast'];
 var wordIndex = 0;
 var charIndex = 0;
 var currentWord = '';
